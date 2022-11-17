@@ -1,0 +1,10 @@
+ @Override
+    public int compareTo(ArmaLarga arma) {
+        if (this.nivel > arma.nivel) {
+            return 1;
+        } else if (this.nivel < arma.nivel) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
